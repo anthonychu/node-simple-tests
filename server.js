@@ -1,5 +1,6 @@
 var http = require('http');
 var data = require('./lib/data');
+require('applicationinsights').setup().start();
 
 var server = http.createServer(function(request, response) {
 
