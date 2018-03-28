@@ -2,7 +2,7 @@
   "name": "simple-tests",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "mocha **/*.spec.js",
     "test-ci": "mocha --reporter xunit --reporter-options output=xunit.xml **/*.spec.js"
