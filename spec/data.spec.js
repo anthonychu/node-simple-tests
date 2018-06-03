@@ -4,6 +4,6 @@ const data = require('../lib/data');
 describe('My data library', function() {
   it('Current city should be correct', function() {
     const actual = data.currentCity();
-    assert.equal(actual, 'San Francisco ');
+    assert.equal(actual, 'Perth');
   });
 });
